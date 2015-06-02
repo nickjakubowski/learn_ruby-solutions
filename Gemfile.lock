@@ -1,0 +1,26 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.2.5)
+    linguistics (2.0.3)
+      loggability (~> 0.7)
+    loggability (0.11.0)
+    rake (10.3.2)
+    rspec (2.0.0)
+      rspec-core (= 2.0.0)
+      rspec-expectations (= 2.0.0)
+      rspec-mocks (= 2.0.0)
+    rspec-core (2.0.0)
+    rspec-expectations (2.0.0)
+      diff-lcs (>= 1.1.2)
+    rspec-mocks (2.0.0)
+      rspec-core (= 2.0.0)
+      rspec-expectations (= 2.0.0)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  linguistics
+  rake
+  rspec (~> 2.0)
